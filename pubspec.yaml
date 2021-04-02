@@ -1,0 +1,192 @@
+name: leet
+description: Enjoy Audio, Photos, Text & Videos every 12 hours.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 3.0.0+7
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  http: ^0.12.2
+  visibility_detector: ^0.1.5
+  http_auth: ^0.3.0
+  webview_flutter: ^0.3.22+1
+  shared_preferences: ^0.5.10
+  stripe_payment: ^1.0.7
+  just_audio: ^0.4.4
+  transparent_image: ^1.0.0
+  image_picker: ^0.6.7+8
+  video_player: ^0.10.12+3
+  path_provider: ^1.6.11
+  dio: ^3.0.10
+  audio_session: ^0.0.7         
+  # video_trimmer: ^0.2.7
+  path: ^1.6.4
+  fluttertoast: ^7.1.1
+  file_picker: ^1.3.6 
+  device_info: ^0.4.2+4
+  record_mp3: ^2.1.0
+  audioplayers: ^0.16.1
+  permission_handler: ^5.0.1+1
+  tiktoklikescroller: ^0.1.1
+  geolocator: ^6.0.0
+  geocoder: ^0.2.1
+  sqflite: ^1.3.1+1
+  firebase_auth: ^0.18.1+1
+  contacts_service: ^0.4.6
+  firebase_core: ^0.5.0
+  flutter_credit_card: ^0.1.3
+  shimmer: ^1.1.2
+  tutorial_coach_mark: ^0.5.1
+  url_launcher: ^5.7.5
+  eva_icons_flutter: ^2.0.1
+  toast: ^0.1.5
+  google_sign_in: ^4.5.1
+  # flutter_facebook_auth: ^1.0.0
+  # flutter_twitter_login: ^1.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/img01.jpg
+    - assets/images/img02.jpg
+    - assets/images/img03.png
+    - assets/images/img04.jpg
+    - assets/images/img05.jpg
+    - assets/images/img06.jpg
+    - assets/images/img07.jpg
+    - assets/images/img08.jpg
+    - assets/images/black small.png
+    - assets/images/white small.png
+    - assets/images/smiling-face.png
+    - assets/images/palette.png
+    - assets/images/world.jpg
+    - assets/images/promo.png
+    - assets/images/blank.png
+    - assets/images/paypal.png
+    - assets/images/google.png
+    - assets/images/apple.png
+    - assets/images/logo.png
+    - assets/images/graphic.png
+    - assets/images/pattern.png
+    - assets/images/canvas.png
+    - assets/images/search.png
+    - assets/images/swipe-up.png
+    - assets/images/morning1.jpg
+    - assets/images/morning2.jpg
+    - assets/images/morning3.jpg
+    - assets/images/morning4.jpg
+    - assets/images/afternoon1.jpg
+    - assets/images/afternoon2.jpg
+    - assets/images/afternoon3.jpg
+    - assets/images/afternoon4.jpg
+    - assets/images/evening1.jpg
+    - assets/images/evening2.jpg
+    - assets/images/evening3.jpg
+    - assets/images/evening4.jpg
+    - assets/images/world.png
+    - assets/images/agreement.jpg
+    - assets/images/location.jpg
+    - assets/images/intro.jpg
+    
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Futura
+      fonts:
+        - asset: assets/fonts/futura medium bt.ttf
+        - asset: assets/fonts/Futura Bold font.ttf
+          weight: 700
+    - family: Amita
+      fonts:
+        - asset: assets/fonts/Amita-Regular.ttf
+        - asset: assets/fonts/Amita-Bold.ttf
+          weight: 700
+    - family: Boogaloo
+      fonts:
+        - asset: assets/fonts/Boogaloo-Regular.ttf
+    - family: Cookie
+      fonts:
+        - asset: assets/fonts/Cookie-Regular.ttf
+    - family: Frederick
+      fonts:
+        - asset: assets/fonts/FrederickatheGreat-Regular.ttf
+    - family: Sanchez
+      fonts:
+        - asset: assets/fonts/Sanchez-Regular.ttf
+        - asset: assets/fonts/Sanchez-Italic.ttf
+          style: italic
+    - family: Sedgwick
+      fonts:
+        - asset: assets/fonts/SedgwickAveDisplay-Regular.ttf
+    - family: SpecialElite
+      fonts:
+        - asset: assets/fonts/SpecialElite-Regular.ttf
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/ProximaNova-Regular.otf
+        - asset: assets/fonts/Proxima Nova Bold.otf
+          weight: 700
+      
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
